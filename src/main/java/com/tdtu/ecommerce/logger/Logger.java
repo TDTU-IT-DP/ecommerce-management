@@ -15,7 +15,7 @@ public class Logger {
         try {
             FileWriter fw = new FileWriter(logFile);
             writer = new PrintWriter(fw, true);
-        } catch (IOException e) {}
+        } catch (IOException ignored) {}
     }
 
     public static synchronized Logger getInstance(){
