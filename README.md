@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Bài tiểu luận giữa kỳ</h2>
 
-<h1 style="text-align: center;">HỆ THỐNG QUẢN LÝ CỬA HÀNG THỂ THAO
+<h1 style="text-align: center;">HỆ THỐNG QUẢN LÝ THƯƠNG MẠI ĐIỆN TỬ
 </h1>
 
 
