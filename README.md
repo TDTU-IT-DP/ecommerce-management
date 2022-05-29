@@ -1,37 +1,22 @@
+<h2 style="text-align: center;">Bài tiểu luận giữa kỳ</h2>
 
-<!--THÔNG TIN PROJECT-->
-<br>
-<div align="center">
-  <h1 align="center">TIỂU LUẬN</h1>
-   <h3>Áp dụng Design Pattern vào ứng dụng</h3>
-<br>
+<h1 style="text-align: center;">HỆ THỐNG QUẢN LÝ CỬA HÀNG THỂ THAO
+</h1>
 
-</div>
-    <br>
-    <br>
-    <br>
-    <br>
-<p>
-            <p style="line-height: 1.0" dir ="rtl">
-                <i>Giảng viên:</i><b> Thầy Đặng Huỳnh Trung Tín</b>
-            </p>
-			  <p style="line-height: 1.0" dir ="rtl">
-                <i>Người thực hiện:</i><b> Cao Thành Phát - 51800747</b>
-            </p>
-            <p style="line-height: 1.0" dir ="rtl">
-                <b> Bùi Văn Tuấn - 51603361</b>
-            </p>
-            <p style="line-height: 1.0" dir ="rtl">
-                <b> Trần Hoàng Phúc - 51603242</b>
-            </p>
-            <p style="line-height: 1.0" dir ="rtl">
-                <b> Nguyễn Thị Cẩm Nhung - 51900164</b>
-            </p>
-            </p>
 
-</p>
-<br>
+_Người hướng dẫn_: **ĐẶNG HUỲNH TRUNG TÍN**
 
+_Người thực hiện_: **BÙI VĂN TUẤN - 51603361**
+
+**TRẦN HOÀNG PHÚC - 51603242**
+
+**CAO THÀNH PHÁT – 51603230**
+
+**NGUYỄN THỊ CẨM NHUNG - 51900164**
+
+Khóa : *2016 & 2019*
+
+<p style="text-align: center;">TP Hồ Chí Minh 2022</>
 
 
 
@@ -83,15 +68,9 @@ Ngày nay, công nghệ thông tin đã và đang đóng vai trò quan trọng t
 
 [CHƯƠNG 2: YÊU CẦU](#_Toc104588912)
 
-[2.1 14](#_Toc104588913)
-
 [CHƯƠNG 3: CÁCH THỰC THI ỨNG DỤNG](#_Toc104588914)
 
-[3.1.](#_Toc104588915)
-
-[CHƯƠNG 4: KIẾN THỨC CƠ BẢN](#_Toc104588916)
-
-[4.1. Giới thiệu, đặt vấn đề &amp; lí do chọn pattern](#_Toc104588917)
+[CHƯƠNG 4: Giới thiệu, đặt vấn đề &amp; lí do chọn pattern](#_Toc104588917)
 
 [a. Singleton](#_Toc104588918)
 
@@ -103,23 +82,44 @@ Ngày nay, công nghệ thông tin đã và đang đóng vai trò quan trọng t
 
 # CHƯƠNG 1: GIỚI THIỆU
 
-Đầu tiên, thể thao giải trí là một bộ phận quan trọng và cấu thành của nền thể dục thể thao. Xã hội càng phát triển, đời sống nhân dân càng cao, nhu cầu thể thao giải trí càng lớn.Ở nước ta, thể thao giải trí đã bước đầu phát triển tốt. Vì vậy, thể thao giải trí đã được thể chế hoá trong Luật thể dục, thể thao công bố ngày 12/12/2006. Thể thao giải trí đang phát triển thuận lợi nhờ sự hình thành các tổ chức xã hội tương ứng như Hội thể thao điện tử và giải trí Việt Nam.
+Thương mại điện tử (E-Commerce) là hình thức kinh doanh trực tuyến sử dụng nền tảng công nghệ thông tin với sự hỗ trợ của Internet để thực hiện các giao dịch mua bán, trao đổi, thanh toán trực tuyến.
 
-Với bối cảnh dịch Covid-19 phức tạp, nhu cầu về tập luyện thể dục thể thao ngày càng cao, để đáp ứng những nhu cầu về thiết bị &amp; sản phẩm hỗ trợ tập luyện thể dục thì các cửa hàng bán hàng thể thao ngày càng mọc lên nhiều.
+Thương mại điện tử (TMĐT) là xu hướng của thời đại toàn cầu hóa, đây là lĩnh vực tiềm năng để các doanh nghiệp vừa và nhỏ sinh lợi và phát triển, cơ hội cho những ai muốn khởi nghiệp kinh doanh theo mô hình mới, Mô hình kinh doanh Thương mại điện tử được xem như một trong những giải pháp thúc đẩy sự phát triển của nền kinh tế quốc gia.
 
-Vì số lượng thiết bị của cửa hàng rất lớn nên việc quản lý rất phức tạp. Với sự phát triển nhanh chóng của công nghệ thông tin, mọi hoạt động kinh doanh đã dần được số hóa, bao gồm cả hoạt động quản lý bán hàng. Quản lý bán hàng là một công việc phức tạp, dễ nhầm lẫn. Chính vì vậy, các hệ thống quản lý bán hàng đã ra đời nhằm đơn giản hóa công việc này. Hệ thống bán hàng sẽ cung cấp cho bạn những thông tin hữu ích về các hệ thống quản lý phổ biến hiện nay. Những phần mềm quản lý công việc bán hàng, giúp cho người dùng, đặc biệt là các doanh nghiệp kinh doanh quản lý hàng hóa một cách có hệ thống, chặt chẽ hơn. Tất cả các khâu như: nhập hàng, kiểm soát đơn hàng, kho hàng, nhân viên, chăm sóc khách hàng, ... sẽ đều được quản lý bởi hệ thống này.
+Ứng dụng ecommerce-management là api để hỗ trợ quản lý catalog, product, user và billing cho các app thương mại điện tử hiện hành.
+# CHƯƠNG 2: YÊU CẦU
 
-**CHƯƠNG 2: YÊU CẦU**
+* Java 8
+* postgreSQL
+* Apache Tomcat
+* Git
+* Apache maven
 
-## 2.1
+# CHƯƠNG 3: CÁCH THỰC THI ỨNG DỤNG
 
-**CHƯƠNG 3: CÁCH THỰC THI ỨNG DỤNG**
+#### Lấy code từ git
 
-## 3.1.
+`git clone https://github.com/TDTU-IT-DP/ecommerce-management`
 
-**CHƯƠNG 4: KIẾN THỨC CƠ BẢN**
+`git checkout develop`
 
-# 4.1. Giới thiệu, đặt vấn đề &amp; lí do chọn pattern
+#### tạo database name: app_dev
+insert follow:
+
+INSERT INTO roles(name) VALUES('ROLE_USER');
+
+INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
+
+INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+
+#### cách chạy
+trong thư mục ecommerce-management run lệnh
+`mvn clean install` để tải thư viện về
+và
+`mvn spring-boot:run` để chạy ứng dụng
+
+
+# CHƯƠNG 4: GIỚI THIỆU, ĐẶT VẤN ĐỀ VÀ LÝ DO CHỌN PATTERN
 
 ### a. Singleton
 
