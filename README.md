@@ -1,22 +1,37 @@
-<h2 style="text-align: center;">Bài tiểu luận giữa kỳ</h2>
 
-<h1 style="text-align: center;">HỆ THỐNG QUẢN LÝ CỬA HÀNG THỂ THAO
-</h1>
+<!--THÔNG TIN PROJECT-->
+<br>
+<div align="center">
+  <h1 align="center">TIỂU LUẬN</h1>
+   <h3>Áp dụng Design Pattern vào ứng dụng</h3>
+<br>
 
+</div>
+    <br>
+    <br>
+    <br>
+    <br>
+<p>
+            <p style="line-height: 1.0" dir ="rtl">
+                <i>Giảng viên:</i><b> Thầy Đặng Huỳnh Trung Tín</b>
+            </p>
+			  <p style="line-height: 1.0" dir ="rtl">
+                <i>Người thực hiện:</i><b> Cao Thành Phát - 51800747</b>
+            </p>
+            <p style="line-height: 1.0" dir ="rtl">
+                <b> Bùi Văn Tuấn - 51603361</b>
+            </p>
+            <p style="line-height: 1.0" dir ="rtl">
+                <b> Trần Hoàng Phúc - 51603242</b>
+            </p>
+            <p style="line-height: 1.0" dir ="rtl">
+                <b> Nguyễn Thị Cẩm Nhung - 51900164</b>
+            </p>
+            </p>
 
-_Người hướng dẫn_: **ĐẶNG HUỲNH TRUNG TÍN**
+</p>
+<br>
 
-_Người thực hiện_: **BÙI VĂN TUẤN - 51603361**
-
-**TRẦN HOÀNG PHÚC - 51603242**
-
-**CAO THÀNH PHÁT – 51603230**
-
-**NGUYỄN THỊ CẨM NHUNG - 51900164**
-
-Khóa : *2016 & 2019*
-
-<p style="text-align: center;">TP Hồ Chí Minh 2022</>
 
 
 
